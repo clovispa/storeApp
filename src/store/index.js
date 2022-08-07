@@ -1,14 +1,13 @@
-import { createStore } from 'vuex'
-
+import {createStore} from "vuex";
+import CategoryModule from "./moduleCategory";
+import ProductModule from './moduleProduct';
+import CarModule from "./moduleCar";
+import ModalModule from "./moduleModal";
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+    modules: {
+        CategoryModule,
+        ProductModule,
+        CarModule,
+        ModalModule,
+    }
 })
