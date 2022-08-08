@@ -9,8 +9,6 @@ const router = createRouter({
       name: 'login',
       component: () => import('../views/LoginComponent.vue')
     },
-
-
     {
       path: '/dashboarmain',
       name: 'DashboarMain',

@@ -4,7 +4,6 @@ const actions = {
         try {
             const {data} = await categoryService.getCategoryList();
             commit('SET_DATA_CATEGORY', data)
-            console.log('pp', data)
         } catch (error) {
             console.log(error);
         }

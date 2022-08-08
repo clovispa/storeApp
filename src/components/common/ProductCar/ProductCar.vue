@@ -16,7 +16,7 @@
           <v-icon large>
             mdi-gift
           </v-icon>
-          {{totalCant}}
+
         </v-badge>
       </template>
 
@@ -55,12 +55,6 @@
         <v-card-actions>
           <v-spacer></v-spacer>
 
-          <v-btn
-              text
-              @click="menu = false"
-          >
-            Finalizar la compra
-          </v-btn>
         </v-card-actions>
       </v-card>
     </v-menu>

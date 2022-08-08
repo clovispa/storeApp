@@ -19,17 +19,14 @@
         </div>
       </div>
       <div class="column pointer" >
-
         <ul>
-
           <li
               class="liLinks"
               v-for="{ name, id } in dataCategory"
               :key="id"
-
           >
-            <router-link class="links" :to="{name: 'product', params: { id: id, name: name },}"
-
+            <router-link class="links"
+                         :to="{name: 'product', params: { id: id, name: name },}"
             >
               <div :tabindex="id" class="box">
                 <div class="one">
@@ -61,11 +58,6 @@ export default {
       required: true
     }
   },
-  setup() {
-   return {
-
-   }
-  }
 
 }
 </script>

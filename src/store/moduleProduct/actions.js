@@ -5,7 +5,6 @@ const actions = {
         try {
             const {data} = await productService.getProductList();
             commit('SET_DATA_PRODUCT', data)
-            console.log('product', data)
         } catch (error) {
             console.log(error);
         }
