@@ -58,7 +58,7 @@ export default {
   border: 1px solid #000;
   height: 34px;
   padding-right: 9px;
-  width: 80px;
+  width: 94px;
   padding-left: 15px;
   padding-top: 5px;
 }
